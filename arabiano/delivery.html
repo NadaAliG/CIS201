@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <link href="Layout1.css" rel="stylesheet" type="text/css"/>
+
+<title>Delivery</title>
+
+</head>
+
+<body>
+
+<header>
+
+	<img src="coffee-bean-icon-40.png" alt="logo" style="float:left;height:80px;width:78.33px">
+    
+    <h1>Arabiano cafe </h1>
+
+</header>
+
+<div class="topnav" id="mytopnav">
+
+  	<a href="home.html">Home</a>
+  	<a href="about.html">About</a>
+  	<a href="menu.html">Menu</a>
+  	<a class="active" href="delivery.html">Delivery</a>
+  	<a href="contactus.html">Contact Us</a>
+  	
+</div> 
+
+<br/><br/>
+
+<h1 align="center">Delivery</h1>
+
+<form>
+	
+	<br/><br/>
+    
+    First Name <input type="text" size="15" maxlength="15" required="required" placeholder="Arabiano"/>
+     
+    <br/><br/>
+    
+    Last Name <input type="text" size="15" maxlength="15" required="required" placeholder="Cafe"/>
+     
+    <br/><br/>
+    
+    Email <input type="email" size="30" required="required" placeholder="email@arabianocafe.com"/>
+    
+    <br/><br/>
+	
+	Address: 
+	
+	<br><br>
+	
+	<iframe	src="https://www.google.com/maps/d/embed?mid=19cYovgdZtpeWx7dMmnrcfvBJ-t8&hl=en" 
+			width="400" 
+			height="400" 
+			align="middle"
+            onmouseover="this.height=500; this.width=1050;"
+     		onmouseout="this.height=400; this.width=400;" >
+    </iframe>
+ 	
+	<br/>
+	
+	Payment Method: <br/><br/>
+	
+	Visa <input type="radio" name="payment" value="1" checked="checked"/>
+	
+	<br/>
+	
+	Paypal <input type="radio" name="payment" value="2"/>
+	
+	<br/>
+	
+	Sadad <input type="radio" name="payment" value="3"/>
+	
+	<br/>
+		
+	Cash <input type="radio" name="payment" value="4"/>
+	
+	<br/><br/>
+	
+	Deliver Now <input type="checkbox" name="deliver"/>
+	
+	<br/><br/>
+		
+	Deliver Later: <input type="datetime-local"/>
+	
+	<br/><br/>
+	
+	Contact Via: <br/><br/>
+	
+	Email <input type="checkbox" name="contact" value="1"/>
+	
+	<br/><br/>
+	
+	Mobile <input type="checkbox" name="contact" value="2"/>
+	
+	<br/><br/>
+	
+	Choose Coffee: 
+	
+	<select>
+	
+			<option> None</option>
+			<option> Cafe Latte</option>
+			<option> Cappuccino</option>
+			<option> Chai Latte</option>
+			<option> Espresso</option>
+			
+	</select>
+	
+	Size: 
+	
+	<select>
+	
+			<option> None</option>
+			<option> Small</option>
+			<option> Medium</option>
+			<option> Large</option>
+			
+	</select>
+
+	<br/><br/>
+	
+	Choose Savory: 
+	
+	<select>
+	
+			<option> None</option>
+			<option> Plain Croissant</option>
+			<option> Cheese Croissant</option>
+			<option> Zattar Croissant</option>
+			
+	</select>
+	
+	<br/><br/>
+
+	Choose Sweet: 
+	
+	<select>
+	
+			<option> None</option>
+			<option> Muffin</option>
+			<option> Danish Pastry</option>
+			<option> Belgian Waffles</option>
+			
+	</select>
+
+	<br/><br/>
+	
+	Feedback <textarea cols="25" rows="5"></textarea>
+	
+	<br/><br/>
+	
+	<input type="submit" onclick="delivery()" value="Submit"/>
+	
+	<br/><br/>
+		
+	<input type="reset" value="Cancel"/>
+
+</form>
+
+<script>
+
+	function delivery() {
+    alert("Good Choice!");
+	}	
+
+</script>
+
+
+<br/>
+
+<footer style="font-weight:bolder" align="center"> All Rights Reserved&reg;</footer>
+
+</body>
+
+</html>

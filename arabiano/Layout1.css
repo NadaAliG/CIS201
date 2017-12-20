@@ -1,0 +1,102 @@
+﻿header {
+    font-style:normal;
+    font-variant: small-caps;
+    padding: 1em;
+    background-color: #b5a397;
+    clear: left;
+    border-bottom-color:#6a5750;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    color: #373737;
+}
+
+footer {
+    padding: 1em;
+    color: #b5a397;
+    background-color: #6a5750;
+    clear: left;
+    text-align: center;
+} 
+
+h1 {
+    color:creamy;
+    text-shadow: 2px 2px 4px #000000;
+}
+ 
+ul {
+
+	list-style-image:url('coffee.png');
+	
+}   	
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.topnav {
+    background-color: #6a5750;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    color: #b5a397;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #f6f1ed;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #f6f1ed;
+    color: black;
+}
+
+table {
+	background-image:url('coffee7.jpg');
+	background-repeat:no-repeat;
+	border:thick double gray;
+	color:white;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:medium;
+	font-style:italic;
+	text-align:center;
+	}
+
+
+body {
+    background-color: #30231d;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size:medium;
+    color: #f6f1ed;
+}
+
+form {
+	font-style:normal;
+	font-weight:bold;
+	background-color:#b0a18e;
+    clear: left;
+    border-bottom-color:#b0a18e;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    color: #373737;
+
+}
